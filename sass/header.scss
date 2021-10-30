@@ -1,0 +1,31 @@
+.navigation {
+    width: 70%;
+    height: 20vh;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    margin: 0 auto;
+    background-color: rgb(223, 207, 207);
+    animation: FadeIn;
+    animation-duration: 2s;
+
+    .item-nav {
+        font-size: 1.3rem;
+        font-weight: 600;
+
+    }
+    .drop-list {
+        border-radius: 1rem;
+        width: 100%;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        display: none;
+      }    
+  }
+
+  

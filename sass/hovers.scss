@@ -1,0 +1,27 @@
+.item-nav:hover {
+    cursor: pointer;
+    color: rgb(92, 90, 90);
+}
+
+.btn:hover {
+    background-color: rgb(233, 210, 233);
+    font-weight: 600;
+    border: 1px dashed gray;
+}
+
+.grid-pic:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border: 0.1rem solid grey;
+}
+
+.button:hover {
+    background-color:rgb(231, 213, 216) ;
+}
+.item-nav:hover ~ .drop-list {
+    display: block;
+}
+
+.slider-img:hover {
+    opacity: 1;
+}

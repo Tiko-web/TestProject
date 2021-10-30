@@ -1,0 +1,65 @@
+.footer-box {
+    width: 100%;
+    background-color: rgb(223, 207, 207);
+    border-radius: 1rem;
+    animation-name: FadeIn;
+    animation-duration: 3s;
+}
+.contact-title {
+    animation-name: FadeIn;
+    animation-duration: 3s;  
+}
+
+.footer-line1 {
+    display: flex;
+    justify-content: space-around; 
+}
+
+input {
+    border: none;
+    border:1px solid black;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 0.3rem;
+    width: 60%;
+    text-align: center;
+}
+.button  {
+    border: none;
+    border-radius: 1rem;
+    width: 60%;
+    border:1px solid black;
+    cursor: pointer;
+    transition: all 0.5;
+}
+.contact-block {
+    display: flex;
+    justify-content: center;
+    align-items: baseline; 
+    margin-bottom: 1rem; 
+    margin-top: 0.2rem;
+}
+
+
+.contact-text {
+    margin-left: 0.1rem;
+}
+
+i {
+    color: blue;
+}
+
+.map {
+    width: 40%;
+    height: 40vh;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
+
+    .map1 {
+        width: 100%;
+        height: 40vh;
+        border-radius: 10px;
+    }
+    
+} 

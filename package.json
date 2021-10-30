@@ -1,0 +1,24 @@
+{
+  "name": "mytestproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w sass -o public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiko-web/TestProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiko-web/TestProject/issues"
+  },
+  "homepage": "https://github.com/Tiko-web/TestProject#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.1"
+  }
+}
