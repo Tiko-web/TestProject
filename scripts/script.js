@@ -400,9 +400,40 @@
 // console.log(b)
 
 
-// davaleba#4
-let arr1 = [1,true, 'undefined', null];
-let arr2 = arr1.toString();
-console.log( typeof arr2)
+
+
+// let c = [1, true, undefined, null];
+// const x = c.map((a) =>{
+//     return a === String
+// })
+
+// console.log(x)
+
+// let c = [1, true, undefined, null];
+// const cModified = c.map(val => (val ? val.toString() : ''));
+// console.log(cModified);
+
+
+// let  c = "I'm gonna pop some tags only got twenty dollars in my pocket";
+// const arr = Array.from(c);
+// console.log(arr);
+
+// let c = [1, true, undefined, null];
+// const d = c.map(b => {
+//   if (b) {
+//     return b.toString();
+//   } else if (b === undefined) {
+//     return 'undefined';
+//   } else if (b === null) {
+//     return 'null';
+//   }
+// });
+// console.log(d);
+
+// let c = [1, true, undefined, null];
+// const d = c.map(b => {
+//   return b + '';
+// });
+// console.log(d);
 
 

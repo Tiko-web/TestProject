@@ -16,8 +16,9 @@ console.log(Array.isArray(s));
 
 
 // // davaleba#4
-// let arr2 = [1,true, undefined, null];
-// console.log(typeof arr2.toString());
+// let  c = "I'm gonna pop some tags only got twenty dollars in my pocket";
+// const arr = Array.from(c);
+// console.log(arr);
 
 // davaleba#5
 // let s = 'hello world';
@@ -25,8 +26,23 @@ console.log(Array.isArray(s));
 // console.log(arr.join('*'))
 
 // // davaleba#6
-// let  c = "I'm gonna pop some tags only got twenty dollars in my pocket";
-// let d = c.split();
+// let c = [1, true, undefined, null];
+// const d = c.map(b => {
+//   if (b) {
+//     return b.toString();
+//   } else if (b === undefined) {
+//     return 'undefined';
+//   } else if (b === null) {
+//     return 'null';
+//   }
+// });
+// console.log(d);
+
+// davaleba#6
+// let c = [1, true, undefined, null];
+// const d = c.map(b => {
+//   return b + '';
+// });
 // console.log(d);
 
 // davaleba#7
