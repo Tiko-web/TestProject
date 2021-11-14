@@ -402,17 +402,6 @@
 
 
 
-// let c = [1, true, undefined, null];
-// const x = c.map((a) =>{
-//     return a === String
-// })
-
-// console.log(x)
-
-// let c = [1, true, undefined, null];
-// const cModified = c.map(val => (val ? val.toString() : ''));
-// console.log(cModified);
-
 
 // let  c = "I'm gonna pop some tags only got twenty dollars in my pocket";
 // const arr = Array.from(c);
